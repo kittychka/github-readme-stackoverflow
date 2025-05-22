@@ -47,4 +47,4 @@ If you want to have a compact layout, just you need to add `layout=compact` as a
 <br>
 
 ## Deploy your own
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/omidnikrah/github-readme-stackoverflow)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/kittychka/github-readme-stackoverflow)
