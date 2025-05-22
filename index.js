@@ -13,7 +13,7 @@ http.createServer(async (req, res) => {
     return;
   }
 
-  const responseArticles = await fetch(`https://api.stackexchange.com/2.2/users/${userID}?site=ru.stackoverflow&filter=!--1nZv)deGu1`);
+  const responseArticles = await fetch(`https://api.stackexchange.com/2.3/users/${userID}?site=ru.stackoverflow&filter=!--1nZv)deGu1`);
   const json = await responseArticles.json();
 
   if (!json.items || json.items.length === 0) {
