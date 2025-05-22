@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omidnikrah/github-readme-medium.git"
+    "url": "git+https://github.com/kittychka/github-readme-medium.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/omidnikrah/github-readme-medium/issues"
+    "url": "https://github.com/kittychka/github-readme-medium/issues"
   },
-  "homepage": "https://github.com/omidnikrah/github-readme-medium#readme",
+  "homepage": "https://github.com/kittychka/github-readme-medium#readme",
   "dependencies": {
     "node-fetch": "^2.6.0"
   }
