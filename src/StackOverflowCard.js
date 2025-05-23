@@ -10,7 +10,7 @@ const StackOverflowCard = async (data, theme, layout) => {
       <svg width="191" height="70" viewBox="0 0 191 70" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fill-rule="evenodd">
           <rect stroke="${isDark ? '#4A4E51' : '#eff0f1'}" fill="${isDark ? '#2D2D2D' : '#fff'}" x=".5" y=".5" width="190" height="69" rx="5" />
-          <text font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}">
+          <text font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}">
             <tspan x="12" y="23">${data.display_name}</tspan>
           </text>
           <text font-family="Arial-BoldMT, Arial" font-size="12" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}">
@@ -53,7 +53,7 @@ const StackOverflowCard = async (data, theme, layout) => {
         <use stroke="#000" xlink:href="#a" />
       </g>
       <text transform="translate(${namePosition} 171)" stroke-linecap="square" stroke-linejoin="bevel" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}"
-        font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold">
+        font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
         <tspan x=".5" y="14">${data.display_name}</tspan>
       </text>
       <text transform="translate(48 231)" stroke-linecap="square" stroke-linejoin="bevel" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}"
