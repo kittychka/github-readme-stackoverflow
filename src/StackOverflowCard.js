@@ -7,7 +7,7 @@ const StackOverflowCard = async (data, theme, layout) => {
 
   if (layout === 'compact') {
     return `
-      <svg width="191" height="70" viewBox="0 0 191 70" xmlns="http://www.w3.org/2000/svg">
+      <svg width="191" height="72" viewBox="0 0 191 70" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fill-rule="evenodd">
           <rect stroke="${isDark ? '#4A4E51' : '#eff0f1'}" fill="${isDark ? '#2D2D2D' : '#fff'}" x=".5" y=".5" width="190" height="69" rx="5" />
           <text font-family="Arial-BoldMT, Arial" font-size="15" font-weight="bold" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}">
@@ -40,7 +40,7 @@ const StackOverflowCard = async (data, theme, layout) => {
   }
 
   return `
-    <svg width="210" height="312" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg width="212" height="312" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <path
         d="M5 0h200a5 5 0 015 5v302a5 5 0 01-5 5H5a5 5 0 01-5-5V5a5 5 0 015-5m1 2h198a4 4 0 014 4v300a4 4 0 01-4 4H6a4 4 0 01-4-4V6a4 4 0 014-4"
         fill="${isDark ? '#4A4E51' : '#eff0f1'}" fill-rule="nonzero" />
