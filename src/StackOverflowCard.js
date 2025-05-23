@@ -2,7 +2,7 @@ const { imgToDataURL } = require('./utils');
 
 const StackOverflowCard = async (data, theme, layout) => {
   const thumbnailBase64 = await imgToDataURL(data.profile_image);
-  const namePosition = (210 - (data.display_name.length * 8)) / 2;
+  const namePosition = (210 - (data.display_name.length * 9.5)) / 2;
   const isDark = theme === 'dark';
 
   if (layout === 'compact') {
