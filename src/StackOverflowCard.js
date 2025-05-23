@@ -56,11 +56,11 @@ const StackOverflowCard = async (data, theme, layout) => {
         font-family="Arial-BoldMT, Arial" font-size="15" font-weight="bold" text-anchor="middle" x="50%">
         <tspan y="185">${data.display_name}</tspan>
       </text>
-      <text transform="translate(48 231)" stroke-linecap="square" stroke-linejoin="bevel" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}"
+      <text transform="translate(48 200)" stroke-linecap="square" stroke-linejoin="bevel" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}"
         font-family="ArialMT, Arial" font-size="16">
         <tspan x="${-data.reputation.toString().length * 2}" y="14">${data.reputation.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</tspan>
       </text>
-      <text transform="translate(88 231)" stroke-linecap="square" stroke-linejoin="bevel" fill="#ACB2B8"
+      <text transform="translate(88 200)" stroke-linecap="square" stroke-linejoin="bevel" fill="#ACB2B8"
         font-family="ArialMT, Arial" font-size="12">
         <tspan x="${data.reputation.toString().length > 4 ? data.reputation.toString().length * 2 : .5}" y="12.5">REPUTATION</tspan>
       </text>
@@ -69,7 +69,7 @@ const StackOverflowCard = async (data, theme, layout) => {
         fill="#F1B600" fill-rule="nonzero" />
       <path d="M21 267h49a2 2 0 012 2v22a2 2 0 01-2 2H21a2 2 0 01-2-2v-22a2 2 0 012-2" fill="${isDark ? '#5E553C' : '#fff4d1'}"
         fill-rule="nonzero" />
-      <text transform="translate(42 274)" stroke-linecap="square" stroke-linejoin="bevel"
+      <text transform="translate(42 231)" stroke-linecap="square" stroke-linejoin="bevel"
         fill="${isDark ? '#CFD2D6' : '#3c4146'}" font-family="ArialMT, Arial" font-size="11">
         <tspan x="0" y="10">${data.badge_counts.gold}</tspan>
       </text>
@@ -79,7 +79,7 @@ const StackOverflowCard = async (data, theme, layout) => {
         fill="#9A9C9F" fill-rule="nonzero" />
       <path d="M80 267h50a2 2 0 012 2v22a2 2 0 01-2 2H80a2 2 0 01-2-2v-22a2 2 0 012-2" fill="${isDark ? '#424242' : '#e8e8e8'}"
         fill-rule="nonzero" />
-      <text transform="translate(101 274)" stroke-linecap="square" stroke-linejoin="bevel"
+      <text transform="translate(101 231)" stroke-linecap="square" stroke-linejoin="bevel"
         fill="${isDark ? '#CFD2D6' : '#3c4146'}" font-family="ArialMT, Arial" font-size="11">
         <tspan x="0" y="10">${data.badge_counts.silver}</tspan>
       </text>
@@ -89,7 +89,7 @@ const StackOverflowCard = async (data, theme, layout) => {
         fill="#AB825F" fill-rule="nonzero" />
       <path d="M140 267h49a2 2 0 012 2v22a2 2 0 01-2 2h-49a2 2 0 01-2-2v-22a2 2 0 012-2" fill="${isDark ? '#4D433B' : '#f2e9e1'}"
         fill-rule="nonzero" />
-      <text transform="translate(161 274)" stroke-linecap="square" stroke-linejoin="bevel"
+      <text transform="translate(161 231)" stroke-linecap="square" stroke-linejoin="bevel"
         fill="${isDark ? '#CFD2D6' : '#3c4146'}" font-family="ArialMT, Arial" font-size="11">
         <tspan x="0" y="10">${data.badge_counts.bronze}</tspan>
       </text>
