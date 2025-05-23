@@ -52,9 +52,9 @@ const StackOverflowCard = async (data, theme, layout) => {
         <image width="130" height="130" xlink:href="${thumbnailBase64}" />
         <use stroke="#000" xlink:href="#a" />
       </g>
-      <text y="171" stroke-linecap="square" stroke-linejoin="bevel" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}"
+      <text stroke-linecap="square" stroke-linejoin="bevel" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}"
         font-family="Arial-BoldMT, Arial" font-size="15" font-weight="bold" text-anchor="middle" x="50%">
-        <tspan y="14">${data.display_name}</tspan>
+        <tspan y="171">${data.display_name}</tspan>
       </text>
       <text transform="translate(48 231)" stroke-linecap="square" stroke-linejoin="bevel" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}"
         font-family="ArialMT, Arial" font-size="16">
