@@ -55,6 +55,7 @@ If you want to have a compact layout, just you need to add `layout=compact` as a
 ## Contributors
 - [Omid Nikrah](https://github.com/omidnikrah)
 - [Soroush Chehresa](https://github.com/soroushchehresa)
+- [Catherina Belokrylceva](https://github.com/kittychka)
 
 <br>
 
