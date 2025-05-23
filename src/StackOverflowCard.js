@@ -28,7 +28,7 @@ const StackOverflowCard = async (data, theme, layout) => {
               <tspan x="9" y="11">${data.badge_counts.silver}</tspan>
             </text>
           </g>
-          <g transform="translate(73 48)" fill="#AB825F">
+          <g transform="translate(63 48)" fill="#AB825F">
             <circle cx="3.5" cy="7.5" r="3.5" />
             <text font-family="Arial-BoldMT, Arial" font-size="12">
               <tspan x="9" y="11">${data.badge_counts.bronze}</tspan>
