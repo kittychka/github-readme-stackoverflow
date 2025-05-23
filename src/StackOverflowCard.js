@@ -2,7 +2,7 @@ const { imgToDataURL } = require('./utils');
 
 const StackOverflowCard = async (data, theme, layout) => {
   const thumbnailBase64 = await imgToDataURL(data.profile_image);
-  const namePosition = (210 - (data.display_name.length * 8.5)) / 2;
+  const namePosition = (214 - (data.display_name.length * 8.5)) / 2;
   const isDark = theme === 'dark';
 
   if (layout === 'compact') {
@@ -40,7 +40,7 @@ const StackOverflowCard = async (data, theme, layout) => {
   }
 
   return `
-    <svg width="212" height="312" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg width="214" height="312" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <path
         d="M5 0h200a5 5 0 015 5v302a5 5 0 01-5 5H5a5 5 0 01-5-5V5a5 5 0 015-5m1 2h198a4 4 0 014 4v300a4 4 0 01-4 4H6a4 4 0 01-4-4V6a4 4 0 014-4"
         fill="${isDark ? '#4A4E51' : '#eff0f1'}" fill-rule="nonzero" />
