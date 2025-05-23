@@ -5,7 +5,7 @@ const StackOverflowCard = require('./src/StackOverflowCard');
 
 http.createServer(async (req, res) => {
   const reqURL = url.parse(req.url, true);
-  const { userID, theme = 'light', layout = 'default', site = 'ru.stackoverflow' } = reqURL.query;
+  const { userID, theme = 'light', layout = 'default', site = 'stackoverflow' } = reqURL.query;
 
   if (!userID) {
     res.write(JSON.stringify({error: 'Add your StackOverflow userID as query string'}));
