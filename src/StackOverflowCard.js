@@ -2,7 +2,7 @@ const { imgToDataURL } = require('./utils');
 
 const StackOverflowCard = async (data, theme, layout) => {
   const thumbnailBase64 = await imgToDataURL(data.profile_image);
-  const namePosition = (210 - (data.display_name.length * 8.5)) / 2;
+  const namePosition = (210 - (data.display_name.length * 8)) / 2;
   const isDark = theme === 'dark';
 
   if (layout === 'compact') {
@@ -53,7 +53,7 @@ const StackOverflowCard = async (data, theme, layout) => {
         <use stroke="#000" xlink:href="#a" />
       </g>
       <text transform="translate(${namePosition} 171)" stroke-linecap="square" stroke-linejoin="bevel" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}"
-        font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+        font-family="Arial-BoldMT, Arial" font-size="15" font-weight="bold">
         <tspan x=".5" y="14">${data.display_name}</tspan>
       </text>
       <text transform="translate(48 231)" stroke-linecap="square" stroke-linejoin="bevel" fill="${isDark ? '#F2F2F3' : '#0f0f0f'}"
